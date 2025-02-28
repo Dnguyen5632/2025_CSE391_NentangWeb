@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size:15px;
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            width: 200px; 
+            text-align: left; 
+            margin-right: 10px;
+            font-weight: 300;
+        }
+        input,select,label{
+            font-weight:300;
+        }
+        .form-child{
+            flex:30%;
+        }
+        .flex{
+            display: flex;
+            gap: 100px;
+        }
+        input{
+            width:600px;
+            height:30px;
+            border-top: 3px solid black;
+        }
+        .checkbox{
+            width:10px;
+            height:10px;
+        }
+        select{
+            height:30px;
+            border-
+        }
+        .genders{
+            display: flex;
+            flex-direction: column;
+        }
+        .genders-items{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-child form-A">
+        <h1 class="heading">Basic Info</h1><hr>
+        <div class="form-item-1">
+            <div class="flex id">
+                <p><strong>Employee ID</strong></p>
+                <p>9</p>
+            </div>
+
+            <div class="flex last_name">
+                <p><strong>Last name</strong></p>
+                <p>Dodsworth</p>
+            </div>
+
+            <div class="flex first_name">
+                <p><strong>First name</strong></p>
+                <input name="first_name"  type="text" value="Anne" id ="first_name">
+            </div>
+
+            <div class="flex gender">
+                <p><strong>Gender</strong></p>
+                <div class="genders">
+                    <div class="genders-items">
+                    <input class="checkbox" name="gender" value ="male" type="radio" for ="male" id="male">
+                    <label for="male">Male</label>
+                    </div>
+
+                    <div class="genders-items">
+                    <input class="checkbox" name="gender" value ="female" type="radio" for ="female" id="female">
+                    <label for="female">Female</label>
+                </div>
+
+                    <div class="genders-items">
+                    <input class="checkbox" name="gender" value ="xxx" type="radio" for ="xxx" id="xxx">
+                    <label for="xxx">XXX</label>
+                </div>
+                    <div class="genders-items">
+                    <input class="checkbox" name="gender" value ="zzz" type="radio" for ="zzz" id="zzz" checked>
+                    <label for="zzz">ZZZ</label>
+                </div>
+            </div>
+</div>
+            <div class="flex title">
+            <p><strong>Title</strong></p>
+            <input name ="title" type="text" value="Sales Representative">
+            </div>
+
+            <div class="flex suffix" id="suffix">
+                <p><strong>Suffix</strong></p>
+                <input name="suffix" type="text" value="Ms." id="suffix">
+            </div>
+        
+
+        <div class="flex birth-date">
+            <p><strong>BirthDate</strong></p>
+                <input name="birthdate" type="text" value="1969-07-02 00:00:00" id="BirthDate">
+        </div>
+
+        <div class="flex hire-date">
+            <p><strong>HireDate</strong></p>
+                <input name="hiredate" type="text" value="1994-11-15 00:00:00" id="HireDate">
+        </div>
+
+        <div class="flex ssn">
+            <p><strong>SSN #(if applicable)</strong></p>
+                <input name="SSN" type="text" value="1969-07-02 00:00:00" id="ssn">
+        </div>
+
+        <div class="flex report-to">
+            <p><strong>Report To</strong></p>
+            <select id="manager" name="manager">
+                <option value="buchanan">Buchanan</option>
+                <option value="lam">Lam</option>
+                <option value="nguyen">Nguyen</option>
+                <option value="tran">Tran</option>
+            </select>
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="form-child form-B">
+            <h1 class="heading">Contact Info</h1><hr>
+            <div class="form-item-1"></div>
+        </div>
+
+        <div class="form-child form-C">
+            <h1 class="heading">Optional Info</h1><hr>
+            <div class="form-item-1"></div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

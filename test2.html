@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Sắp Khai Giảng</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            margin:0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        .course-list{
+            display: flex;
+            flex-direction: column;
+        }
+        .course {
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+        .course-card {
+            background: white;
+            padding: 20px;
+            border: none;
+            flex:1;
+            width: 300px;
+            text-align: left;
+            
+        }
+        .course-card img {
+            width: 100%;
+            
+        }
+        .course-card h2 {
+            color: #333;
+        }
+        .course-card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .course-card button {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .course-card button:hover {
+            background-color: #e65c00;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        h1::before{
+            content:"|"
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:#ff6600">KHÓA HỌC SẮP KHAI GIẢNG</h1>
+    </header>
+    <main>
+        <section class="course-list">
+            <div class="course">
+
+                <div class="course-card">
+                    <img src="https://aptech.vn/wp-content/uploads/2023/10/banner-web-1536x606.png.webp" alt="Lập trình viên quốc tế">
+                    <h2>Lập trình viên quốc tế</h2>
+                    <p>Chương trình đào tạo chuânr quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề nghiệp lập trình chuyên nghiệp.</p>
+                    <p><strong>Học bổngbổng:</strong> 15.000.000 VND</p>
+                    <p><strong>Khai giảng:</strong> 2/2024</p>
+                    <p><strong>Thời lượng:</strong> 2 - 2.5 năm</p>
+                </div>
+                
+                <div class="course-card">
+                    <img src="https://aptech.vn/wp-content/uploads/2023/08/banner-1920x750_ITT.png.webp" alt="Lập trình Web Fullstack">
+                    <h2>Lập trình Web Fullstack</h2>
+                    <p>Khóa học phù hợp với người bắt đầu lập trình hoặc người chuyển nghề. Trang bị từ frontend đến backend, xây dựng website hoàn chỉnh sau khóa học.</p>
+                    <p><strong>Ưu đãi:</strong> giảm 15% học phí</p>
+                    <p><strong>Khai giảng:</strong> 2/2024</p>
+                    <p><strong>Thời lượng:</strong> 6 tháng</p>
+                </div>
+                
+                <div class="course-card">
+                    <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-java-1536x606.png.webp" alt="Lập trình Java">
+                    <h2>Lập trình Java Fullstack</h2>
+                    <p>Phát triển ứng dụng web từ cơ bản đến nâng cao bằng Java, các ứng dụng doanh nghiệp sử dụng J2EE, Servlet, JSP, Spring Framework, EJB,...</p>
+                    <p><strong>Ưu đãi:</strong> giảm 15% học phí</p>
+                    <p><strong>Khai giảng:</strong> 2/2024</p>
+                    <p><strong>Thời lượng:</strong> 236 giờ</p>
+                </div>
+            </div>
+            <div class="course">
+
+                <div class="course-card">
+                    <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-php.png.webp" alt="Lập trình Java">
+                    <h2>Lập trình PHP & LARAVEL</h2>
+                    <p>PHP là một trong các ngôn ngữ thiết kế web mạnh nhất. Khóa học trang bị kỹ năng xây dựng web hoàn chỉnh sử dụng PHP kết hợp Laravel Framework</p>
+                    <p><strong>Khai giảng:</strong> 5/2/2024</p>
+                    <p><strong>Học phíphí:</strong> 9.600.000 VND</p>
+                    <p><strong>Thời lượng:</strong> 36 giờ</p>
+                </div>
+    
+                <div class="course-card">
+                    <img src="https://aptech.vn/wp-content/uploads/2021/05/lap-trinh-php.png.webp" alt="Lập trình Java">
+                    <h2>KHÓA HỌC LẬP TRÌNH .NET</h2>
+                    <p>Phát triển ứng dụng web sử dụng nền tảng ASP.NET Core MVC. Để học tốt khóa học yêu cầu học viên đã có kiến thức C# và Frontend.</p>
+                    <p><strong>Khai giảng:</strong> 2/2024</p>
+                    <p><strong>Thời lượng:</strong> 40 giờ</p>
+                    <p><strong>Học phí:</strong> 6.000.000 VND</p>
+                </div> 
+    
+                <div class="course-card">
+                    <img src="https://aptech.vn/wp-content/uploads/2021/06/lap-trinh-csdl-voi-sql-1536x606.png.webp" alt="Lập trình Java">
+                    <h2>LẬP TRÌNH SQL SERVER</h2>
+                    <p>Trang bị những kiến thức nền tảng vững chắc về SQL Server như các kỹ thuật: lọc dữ liệu, phân tích, thiết kế và quản trị cơ sở dữ liệu,...</p>
+                    <p><strong>Khai giảng:</strong> 2/2024</p>
+                    <p><strong>Học phí:</strong> 4.500.000 VND</p>
+                    <p><strong>Thời lượng:</strong> 30 giờ</p>
+                </div> 
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trung tâm đào tạo lập trình</p>
+    </footer>
+</body>
+</html>
